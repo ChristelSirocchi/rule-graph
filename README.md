@@ -30,9 +30,25 @@ The folder contains all the code to replicate the experiments conducted and synt
 - **synthetic**
   - Contains the datasets generated in the investigation.
 
-## How to Run
+## Benchmark Datasets Characteristics
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ChristelSirocchi/rule-graph.git
-   cd rule-graph
+| **Dataset**         | **#instances** | **#features** | **#binary** | **#categorical** | **#continuous** | **#classes** |
+|---------------------|----------------|---------------|-------------|------------------|-----------------|--------------|
+| Zoo                 | 101            | 17            | 16          | 1                | 0               | 7            |
+| **Breast Tissue**   | 106            | 9             | 0           | 0                | 9               | 6            |
+| Hepatitis           | 155            | 19            | 13          | 6                | 0               | 2            |
+| BCW Prognostic      | 198            | 34            | 0           | 0                | 34              | 2            |
+| SPECT Heart         | 267            | 22            | 22          | 0                | 0               | 2            |
+| Breast Cancer       | 286            | 9             | 0           | 9                | 0               | 2            |
+| BCW Diagnostic      | 569            | 30            | 0           | 0                | 30              | 2            |
+| Balance Scale       | 625            | 4             | 0           | 4                | 0               | 3            |
+| BCW Original        | 699            | 9             | 0           | 0                | 30              | 2            |
+| **Pima Diabetes**   | 768            | 8             | 0           | 0                | 8               | 2            |
+| Tokyo               | 959            | 44            | 0           | 2                | 42              | 2            |
+| Hill Valley         | 1212           | 100           | 0           | 0                | 100             | 2            |
+| Contraceptive       | 1473           | 9             | 0           | 2                | 7               | 3            |
+| Car Evaluation      | 1728           | 6             | 0           | 6                | 0               | 4            |
+| Pixel               | 2000           | 240           | 0           | 240              | 0               | 10           |
+| Hypothyroid         | 3163           | 25            | 17          | 1                | 7               | 2            |
+| Waveform            | 5000           | 21            | 0           | 0                | 21              | 3            |
+
