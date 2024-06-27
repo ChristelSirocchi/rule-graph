@@ -1,0 +1,11 @@
+matplotlib==3.8.4
+networkx==3.2.1
+numpy==1.26.4
+pandas==2.2.2
+pmlb==1.0.1.post3
+psyke==0.8.9
+seaborn==0.13.2
+shap==0.45.1
+sklearn==1.4.2
+ucimlrepo==0.0.7
+wittgenstein==0.3.4
