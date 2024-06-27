@@ -14,6 +14,9 @@ The folder contains all the code to replicate the experiments conducted and synt
 - **graph_building.py**
   - Contains functions to compute a variety of rule relevance and feature relevance metrics, and to generate the adjacency matrix for the feature graph, as proposed by our method.
 
+- **requirements.txt**
+  - Specifies the required Python libraries. Note: The PsyKE library requires Python version <= 3.9.
+  
 ### Notebooks
 
 - **Synthetic_experiments_notebook.ipynb**
