@@ -24,13 +24,19 @@ The folder contains all the code to replicate the experiments conducted and synt
 
 ### Folders
 
+- **synthetic**
+  - Contains the datasets generated in the investigation.
+    
 - **LLM-outputs**
   - Contains the rules output from the logic learning machine, computed within the Rulex platform.
 
-- **synthetic**
-  - Contains the datasets generated in the investigation.
+- **Feature-selection**
+  - *_imps.csv files: feature importance scores computed according to permutation importance, Gini importance, average SHAP values, and the proposed method (with all using relevance or impurity as feature relevance criterion + relevace, support, lift, confidence or equal as rule relevance criterion);
+  - *_scores.csv: accuracy of decision trees trained on the top k features (with k ranging from 2 to 12) according to each of the four considered feature importance metrics.
 
-## Benchmark Datasets Characteristics
+## Benchmark Datasets
+
+Datasets Hill Valley, Hypothyroid, Pixel, and Tokyo were retrieved from the **Penn Machine Learning Benchmarks** (https://github.com/EpistasisLab/pmlb) while the remaining datasets were retrieved from the **UCI Machine Learning Repository** (https://github.com/uci-ml-repo/ucimlrepo), accessed through the respective Python wrappers.
 
 | **Dataset**         | **#instances** | **#features** | **#binary** | **#categorical** | **#continuous** | **#classes** |
 |---------------------|----------------|---------------|-------------|------------------|-----------------|--------------|
