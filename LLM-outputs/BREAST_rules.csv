@@ -1,0 +1,8 @@
+RULE 1: IF V9 > 1617.982108 THEN Outcome in {adi}, COVERING: 1.000000(wo cond. 1: 0.000000), ERROR: 0.000000(wo cond. 1: 1.000000)
+RULE 2: IF V2 > 0.142593 AND V4 > 67.492895 THEN Outcome in {car}, COVERING: 1.000000(wo cond. 1: 0.000000; wo cond. 2: 0.000000), ERROR: 0.054545(wo cond. 1: 0.563636; wo cond. 2: 0.072727)
+RULE 3: IF V6 <= 25.737467 AND V8 > 139.657898 THEN Outcome in {con}, COVERING: 1.000000(wo cond. 1: 0.000000; wo cond. 2: 0.000000), ERROR: 0.036364(wo cond. 1: 0.309091; wo cond. 2: 0.581818)
+RULE 4: IF V3 <= 0.194779 AND V4 <= 99.649021 AND V5 <= 1386.534866 AND V8 > 23.508468 THEN Outcome in {fad}, COVERING: 1.000000(wo cond. 1: 0.000000; wo cond. 2: 0.000000; wo cond. 3: 0.000000; wo cond. 4: 0.000000), ERROR: 0.092593(wo cond. 1: 0.018519; wo cond. 2: 0.092593; wo cond. 3: 0.092593; wo cond. 4: 0.129630)
+RULE 5: IF 0.054192 < V2 <= 0.169995 AND V4 <= 55.386016 THEN Outcome in {gla}, COVERING: 0.888889(wo cond. 1: 0.000000; wo cond. 2: 0.111111), ERROR: 0.054545(wo cond. 1: 0.054545; wo cond. 2: 0.545455)
+RULE 6: IF 0.126013 < V2 <= 0.135874 THEN Outcome in {gla}, COVERING: 0.444444(wo cond. 1: 0.555556), ERROR: 0.000000(wo cond. 1: 1.000000)
+RULE 7: IF V7 > 29.228950 AND 186.301216 < V9 <= 430.799278 THEN Outcome in {mas}, COVERING: 0.636364(wo cond. 1: 0.181818; wo cond. 2: 0.090909), ERROR: 0.094340(wo cond. 1: 0.264151; wo cond. 2: 0.584906)
+RULE 8: IF V2 > 0.063530 AND V3 <= 0.091804 AND 4.206608 < V6 <= 13.700684 AND V7 > 17.822825 THEN Outcome in {mas}, COVERING: 0.454545(wo cond. 1: 0.000000; wo cond. 2: 0.181818; wo cond. 3: 0.090909; wo cond. 4: 0.000000), ERROR: 0.094340(wo cond. 1: 0.037736; wo cond. 2: 0.018868; wo cond. 3: 0.283019; wo cond. 4: 0.037736)

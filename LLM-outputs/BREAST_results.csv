@@ -1,0 +1,115 @@
+﻿Task,Name,Description,Type,Output,OutputValue,Training,Validation,Test,Whole
+llm1_cpy,ExecTime,Elapsed time (sec),continuous,,,,,,0.000
+llm1_cpy,NumDist,Number of distinct samples,integer,,,64.000,,,
+llm1_cpy,Size,Number of samples,integer,Outcome,,64.000,,,
+llm1_cpy,NumRule,Number of rules,integer,Outcome,,,,,8.000
+llm1_cpy,NumRuleAtt,Number of attributes in rules,integer,Outcome,,,,,10.000
+llm1_cpy,MinCondRule,Minimum number of conditions in a rule,integer,Outcome,,,,,1.000
+llm1_cpy,MaxCondRule,Maximum number of conditions in a rule,integer,Outcome,,,,,4.000
+llm1_cpy,AveCondRule,Average number of conditions in a rule,continuous,Outcome,,,,,2.250
+llm1_cpy,MinCovRule,Minimum covering for a rule (%),continuous,Outcome,,,,,44.444
+llm1_cpy,MaxCovRule,Maximum covering for a rule (%),continuous,Outcome,,,,,100.000
+llm1_cpy,AveCovRule,Average covering for a rule (%),continuous,Outcome,,,,,80.303
+llm1_cpy,MinErrRule,Minimum error for a rule,continuous,Outcome,,,,,0.000
+llm1_cpy,MaxErrRule,Maximum error for a rule,continuous,Outcome,,,,,9.434
+llm1_cpy,AveErrRule,Average error for a rule,continuous,Outcome,,,,,5.334
+app1_cpy,ExecTime,Elapsed time (sec),continuous,,,,,,0.000
+app1_cpy,Size,Number of samples,integer,Outcome,,64.000,0.000,42.000,106.000
+app1_cpy,Corr,Correctness (%),continuous,Outcome,,85.938,0.000,64.286,77.358
+app1_cpy,Acc,Accuracy,continuous,Outcome,adi,1.000,0.000,0.929,0.972
+app1_cpy,Acc,Accuracy,continuous,Outcome,car,0.969,0.000,1.000,0.981
+app1_cpy,Acc,Accuracy,continuous,Outcome,con,0.984,0.000,0.952,0.972
+app1_cpy,Acc,Accuracy,continuous,Outcome,fad,0.938,0.000,0.762,0.868
+app1_cpy,Acc,Accuracy,continuous,Outcome,gla,0.938,0.000,0.833,0.896
+app1_cpy,Acc,Accuracy,continuous,Outcome,mas,0.891,0.000,0.810,0.858
+app1_cpy,Prec,Precision | Positive predictive value,continuous,Outcome,adi,1.000,0.000,0.714,0.913
+app1_cpy,Prec,Precision | Positive predictive value,continuous,Outcome,car,0.818,0.000,1.000,0.913
+app1_cpy,Prec,Precision | Positive predictive value,continuous,Outcome,con,0.900,0.000,0.800,0.867
+app1_cpy,Prec,Precision | Positive predictive value,continuous,Outcome,fad,0.714,0.000,0.273,0.520
+app1_cpy,Prec,Precision | Positive predictive value,continuous,Outcome,gla,0.778,0.000,0.500,0.692
+app1_cpy,Prec,Precision | Positive predictive value,continuous,Outcome,mas,1.000,0.000,0.333,0.714
+app1_cpy,Npv,Negative predictive value | Negative reliability,continuous,Outcome,adi,1.000,0.000,0.971,0.988
+app1_cpy,Npv,Negative predictive value | Negative reliability,continuous,Outcome,car,1.000,0.000,1.000,1.000
+app1_cpy,Npv,Negative predictive value | Negative reliability,continuous,Outcome,con,1.000,0.000,0.973,0.989
+app1_cpy,Npv,Negative predictive value | Negative reliability,continuous,Outcome,fad,1.000,0.000,0.935,0.975
+app1_cpy,Npv,Negative predictive value | Negative reliability,continuous,Outcome,gla,0.964,0.000,0.868,0.925
+app1_cpy,Npv,Negative predictive value | Negative reliability,continuous,Outcome,mas,0.883,0.000,0.846,0.869
+app1_cpy,Sens,Sensitivity | Recall | True positive rate,continuous,Outcome,adi,1.000,0.000,0.833,0.955
+app1_cpy,Sens,Sensitivity | Recall | True positive rate,continuous,Outcome,car,1.000,0.000,1.000,1.000
+app1_cpy,Sens,Sensitivity | Recall | True positive rate,continuous,Outcome,con,1.000,0.000,0.800,0.929
+app1_cpy,Sens,Sensitivity | Recall | True positive rate,continuous,Outcome,fad,1.000,0.000,0.600,0.867
+app1_cpy,Sens,Sensitivity | Recall | True positive rate,continuous,Outcome,gla,0.778,0.000,0.286,0.563
+app1_cpy,Sens,Sensitivity | Recall | True positive rate,continuous,Outcome,mas,0.364,0.000,0.143,0.278
+app1_cpy,Spec,Specificity | True negative rate,continuous,Outcome,adi,1.000,0.000,0.944,0.976
+app1_cpy,Spec,Specificity | True negative rate,continuous,Outcome,car,0.964,0.000,1.000,0.976
+app1_cpy,Spec,Specificity | True negative rate,continuous,Outcome,con,0.982,0.000,0.973,0.978
+app1_cpy,Spec,Specificity | True negative rate,continuous,Outcome,fad,0.926,0.000,0.784,0.868
+app1_cpy,Spec,Specificity | True negative rate,continuous,Outcome,gla,0.964,0.000,0.943,0.956
+app1_cpy,Spec,Specificity | True negative rate,continuous,Outcome,mas,1.000,0.000,0.943,0.977
+app1_cpy,Cov,Coverage,continuous,Outcome,adi,0.250,0.000,0.167,0.217
+app1_cpy,Cov,Coverage,continuous,Outcome,car,0.172,0.000,0.286,0.217
+app1_cpy,Cov,Coverage,continuous,Outcome,con,0.156,0.000,0.119,0.142
+app1_cpy,Cov,Coverage,continuous,Outcome,fad,0.219,0.000,0.262,0.236
+app1_cpy,Cov,Coverage,continuous,Outcome,gla,0.141,0.000,0.095,0.123
+app1_cpy,Cov,Coverage,continuous,Outcome,mas,0.063,0.000,0.071,0.066
+app1_cpy,Supp,Support | Frequency,continuous,Outcome,adi,0.250,0.000,0.119,0.198
+app1_cpy,Supp,Support | Frequency,continuous,Outcome,car,0.141,0.000,0.286,0.198
+app1_cpy,Supp,Support | Frequency,continuous,Outcome,con,0.141,0.000,0.095,0.123
+app1_cpy,Supp,Support | Frequency,continuous,Outcome,fad,0.156,0.000,0.071,0.123
+app1_cpy,Supp,Support | Frequency,continuous,Outcome,gla,0.109,0.000,0.048,0.085
+app1_cpy,Supp,Support | Frequency,continuous,Outcome,mas,0.063,0.000,0.024,0.047
+app1_cpy,Nov,Novelty,continuous,Outcome,adi,0.188,0.000,0.095,0.153
+app1_cpy,Nov,Novelty,continuous,Outcome,car,0.116,0.000,0.204,0.155
+app1_cpy,Nov,Novelty,continuous,Outcome,con,0.119,0.000,0.081,0.104
+app1_cpy,Nov,Novelty,continuous,Outcome,fad,0.122,0.000,0.040,0.089
+app1_cpy,Nov,Novelty,continuous,Outcome,gla,0.090,0.000,0.032,0.066
+app1_cpy,Nov,Novelty,continuous,Outcome,mas,0.052,0.000,0.012,0.036
+app1_cpy,Sat,Satisfaction,continuous,Outcome,adi,1.000,0.000,0.667,0.890
+app1_cpy,Sat,Satisfaction,continuous,Outcome,car,0.788,0.000,1.000,0.892
+app1_cpy,Sat,Satisfaction,continuous,Outcome,con,0.884,0.000,0.773,0.846
+app1_cpy,Sat,Satisfaction,continuous,Outcome,fad,0.661,0.000,0.174,0.441
+app1_cpy,Sat,Satisfaction,continuous,Outcome,gla,0.741,0.000,0.400,0.638
+app1_cpy,Sat,Satisfaction,continuous,Outcome,mas,1.000,0.000,0.200,0.656
+app1_cpy,RPrec,Relative precision,continuous,Outcome,adi,0.750,0.000,0.571,0.705
+app1_cpy,RPrec,Relative precision,continuous,Outcome,car,0.678,0.000,0.714,0.715
+app1_cpy,RPrec,Relative precision,continuous,Outcome,con,0.759,0.000,0.681,0.735
+app1_cpy,RPrec,Relative precision,continuous,Outcome,fad,0.558,0.000,0.154,0.378
+app1_cpy,RPrec,Relative precision,continuous,Outcome,gla,0.637,0.000,0.333,0.541
+app1_cpy,RPrec,Relative precision,continuous,Outcome,mas,0.828,0.000,0.167,0.544
+app1_cpy,RNpv,Relative negative reliability,continuous,Outcome,adi,0.250,0.000,0.114,0.195
+app1_cpy,RNpv,Relative negative reliability,continuous,Outcome,car,0.141,0.000,0.286,0.198
+app1_cpy,RNpv,Relative negative reliability,continuous,Outcome,con,0.141,0.000,0.092,0.121
+app1_cpy,RNpv,Relative negative reliability,continuous,Outcome,fad,0.156,0.000,0.055,0.117
+app1_cpy,RNpv,Relative negative reliability,continuous,Outcome,gla,0.104,0.000,0.035,0.076
+app1_cpy,RNpv,Relative negative reliability,continuous,Outcome,mas,0.055,0.000,0.013,0.038
+app1_cpy,RSens,Relative sensitivity,continuous,Outcome,adi,0.750,0.000,0.667,0.738
+app1_cpy,RSens,Relative sensitivity,continuous,Outcome,car,0.828,0.000,0.714,0.783
+app1_cpy,RSens,Relative sensitivity,continuous,Outcome,con,0.844,0.000,0.681,0.787
+app1_cpy,RSens,Relative sensitivity,continuous,Outcome,fad,0.781,0.000,0.338,0.631
+app1_cpy,RSens,Relative sensitivity,continuous,Outcome,gla,0.637,0.000,0.190,0.440
+app1_cpy,RSens,Relative sensitivity,continuous,Outcome,mas,0.301,0.000,0.071,0.212
+app1_cpy,RSpec,Relative specificity,continuous,Outcome,adi,0.250,0.000,0.111,0.193
+app1_cpy,RSpec,Relative specificity,continuous,Outcome,car,0.136,0.000,0.286,0.193
+app1_cpy,RSpec,Relative specificity,continuous,Outcome,con,0.138,0.000,0.092,0.120
+app1_cpy,RSpec,Relative specificity,continuous,Outcome,fad,0.145,0.000,0.046,0.104
+app1_cpy,RSpec,Relative specificity,continuous,Outcome,gla,0.104,0.000,0.038,0.078
+app1_cpy,RSpec,Relative specificity,continuous,Outcome,mas,0.063,0.000,0.014,0.043
+app1_cpy,FMeas,F-measure,continuous,Outcome,adi,1.000,0.000,0.769,0.933
+app1_cpy,FMeas,F-measure,continuous,Outcome,car,0.900,0.000,1.000,0.955
+app1_cpy,FMeas,F-measure,continuous,Outcome,con,0.947,0.000,0.800,0.897
+app1_cpy,FMeas,F-measure,continuous,Outcome,fad,0.833,0.000,0.375,0.650
+app1_cpy,FMeas,F-measure,continuous,Outcome,gla,0.778,0.000,0.364,0.621
+app1_cpy,FMeas,F-measure,continuous,Outcome,mas,0.533,0.000,0.200,0.400
+app1_cpy,Mcc,Matthews correlation coefficient,continuous,Outcome,adi,1.000,0.000,0.730,0.916
+app1_cpy,Mcc,Matthews correlation coefficient,continuous,Outcome,car,0.888,0.000,1.000,0.944
+app1_cpy,Mcc,Matthews correlation coefficient,continuous,Outcome,con,0.940,0.000,0.773,0.881
+app1_cpy,Mcc,Matthews correlation coefficient,continuous,Outcome,fad,0.813,0.000,0.283,0.603
+app1_cpy,Mcc,Matthews correlation coefficient,continuous,Outcome,gla,0.741,0.000,0.290,0.565
+app1_cpy,Mcc,Matthews correlation coefficient,continuous,Outcome,mas,0.567,0.000,0.124,0.386
+app1_cpy,Tot,Total number of samples for each class,integer,Outcome,adi,16.000,0.000,0.000,22.000
+app1_cpy,Tot,Total number of samples for each class,integer,Outcome,car,9.000,0.000,0.000,21.000
+app1_cpy,Tot,Total number of samples for each class,integer,Outcome,con,9.000,0.000,0.000,14.000
+app1_cpy,Tot,Total number of samples for each class,integer,Outcome,fad,10.000,0.000,1.000,15.000
+app1_cpy,Tot,Total number of samples for each class,integer,Outcome,gla,9.000,0.000,1.000,16.000
+app1_cpy,Tot,Total number of samples for each class,integer,Outcome,mas,11.000,0.000,1.000,18.000
+app1_cpy,Reject,Samples not covered by rules,integer,Outcome,adi,64.000,0.000,42.000,106.000

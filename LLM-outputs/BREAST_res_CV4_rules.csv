@@ -1,0 +1,8 @@
+RULE 1: IF LengthCurve > 1439.125000 THEN target in {adi}, COVERING: 1.000000(wo cond. 1: 0.000000), ERROR: 0.029412(wo cond. 1: 0.970588)
+RULE 2: IF PhaseAngle > 0.142500 AND Impendance > 67.493000 THEN target in {car}, COVERING: 1.000000(wo cond. 1: 0.000000; wo cond. 2: 0.000000), ERROR: 0.044118(wo cond. 1: 0.544118; wo cond. 2: 0.147059)
+RULE 3: IF 600.624000 < Impedivity <= 1762.045000 THEN target in {con}, COVERING: 1.000000(wo cond. 1: 0.000000), ERROR: 0.041096(wo cond. 1: 0.958904)
+RULE 4: IF HFSlope <= 0.210500 AND AreaSpectrum <= 1533.453000 AND AreaNorm > 4.801500 AND 20.267000 < DistanceReal <= 110.233000 AND LengthCurve <= 399.945500 THEN target in {fad}, COVERING: 0.916667(wo cond. 1: 0.000000; wo cond. 2: 0.000000; wo cond. 3: 0.000000; wo cond. 4: 0.000000; wo cond. 5: 0.000000), ERROR: 0.095890(wo cond. 1: 0.013699; wo cond. 2: 0.068493; wo cond. 3: 0.027397; wo cond. 4: 0.068493; wo cond. 5: 0.068493)
+RULE 5: IF Impendance <= 20.118500 THEN target in {fad}, COVERING: 0.083333(wo cond. 1: 0.916667), ERROR: 0.000000(wo cond. 1: 1.000000)
+RULE 6: IF Impendance <= 53.911000 AND 18.178500 < MaxSpectrum <= 34.586500 THEN target in {gla}, COVERING: 1.000000(wo cond. 1: 0.000000; wo cond. 2: 0.000000), ERROR: 0.041096(wo cond. 1: 0.136986; wo cond. 2: 0.068493)
+RULE 7: IF 37.339500 < Impendance <= 229.008000 AND 29.229000 < MaxSpectrum <= 49.542500 THEN target in {mas}, COVERING: 0.800000(wo cond. 1: 0.000000; wo cond. 2: 0.200000), ERROR: 0.100000(wo cond. 1: 0.042857; wo cond. 2: 0.357143)
+RULE 8: IF 0.012500 < HFSlope <= 0.039000 AND MaxSpectrum <= 50.152000 THEN target in {mas}, COVERING: 0.266667(wo cond. 1: 0.733333; wo cond. 2: 0.000000), ERROR: 0.042857(wo cond. 1: 0.400000; wo cond. 2: 0.028571)
